@@ -1,0 +1,57 @@
+<head>
+  <link href="./css/floor.css" rel="stylesheet" />
+</head>
+
+<div
+  id="id01"
+  class="loginmodal"
+  style="display: none; z-index: 1000;"
+>
+  <span
+    onclick="document.getElementById('id01').style.display='none'"
+    class="closebtn close"
+    title="Close Modal"
+    style="
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      background-color: var(--npo);
+    "
+    >&times;</span
+  >
+  <form
+    class="loginmodal-content animate"
+    action="./f20-Dynamic-Mapping/Admin/login.php"
+    method="post"
+  >
+    <div class="imgcontainer">
+      <img
+        src="./f20-Dynamic-Mapping/assets/SUNY Logo.png"
+        alt="SUNY Logo"
+        class="avatar"
+        width="100px"
+      />
+    </div>
+
+    <div class="container">
+      <label>Username:</label
+      ><input type="text" name="Username" value="" required /><br />
+      <br /><label>Password:</label
+      ><input type="password" name="Password" value="" required /><br />
+      <br />
+      <div>
+        <input
+          class="modalLoginBtn"
+          id="submit"
+          type="submit"
+          name="submit"
+          value="Login"
+          style="
+            background-color: var(--npb);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          "
+        />
+      </div>
+    </div>
+  </form>
+</div>

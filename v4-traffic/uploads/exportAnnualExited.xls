@@ -1,0 +1,67 @@
+
+   <table class="table" bordered="1">  
+                    <tr>  
+                         <th>Month</th>  
+                         <th>People Exited</th>  
+                    </tr>
+  
+    <tr>  
+       <td>Jan</td>  
+       <td>1159</td>  
+    </tr>
+   
+    <tr>  
+       <td>Feb</td>  
+       <td>2870</td>  
+    </tr>
+   
+    <tr>  
+       <td>Mar</td>  
+       <td>4792</td>  
+    </tr>
+   
+    <tr>  
+       <td>Apr</td>  
+       <td>2698</td>  
+    </tr>
+   
+    <tr>  
+       <td>May</td>  
+       <td>2569</td>  
+    </tr>
+   
+    <tr>  
+       <td>Jun</td>  
+       <td>3894</td>  
+    </tr>
+   
+    <tr>  
+       <td>Jul</td>  
+       <td>4054</td>  
+    </tr>
+   
+    <tr>  
+       <td>Aug</td>  
+       <td>2295</td>  
+    </tr>
+   
+    <tr>  
+       <td>Sep</td>  
+       <td>3453</td>  
+    </tr>
+   
+    <tr>  
+       <td>Oct</td>  
+       <td>2493</td>  
+    </tr>
+   
+    <tr>  
+       <td>Nov</td>  
+       <td>1937</td>  
+    </tr>
+   
+    <tr>  
+       <td>Dec</td>  
+       <td>3345</td>  
+    </tr>
+   </table>

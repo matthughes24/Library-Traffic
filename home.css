@@ -1,0 +1,12 @@
+header, h3, h1, h5{
+    color: rgb(5,61,125);
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+#spacing{
+	margin: 3% 20%;
+}

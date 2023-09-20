@@ -1,0 +1,19 @@
+Most of the site was originally using mock data, the real site data table is called: traffic_Cam_Data
+the table contains these columns: dateStart, timeStart, enterCount and exitCount
+the format for the dateStart is in Year-Month-Day format while the timeStart is set up so the first hour is actually on the end
+    such as this: "00:00:00 -  00:00:01" this means hour 0 to hour 1 and that is the first time slot you can enter and the last is:  "00:00:23 -  00:00:24" so it uses military time
+
+examples of proper queries are the filterdayweek.php, filtertime.php and for an easy to understand extra query AdvanceFilterDaily.php
+
+I would also like to note that when sending data to these files using AJAX unless you are using a list you only need to grab the input by its ID from the corresponding input box. Look at the code on 
+trafficLogMonthly.php, you should see both a list being used for input and a regular string, you should notice that in the code around where AJAX is used that rather than doing the extra work as done with the list input I simple just got the value by its ID and sent it through as such
+
+There is a seperate config file that can be altered if you need to change the database that you are using.
+
+Some things that can be worked on to improve the core functiion of the site are fairly simple such as:
+    - Make sure each Traffic log pages (Daily, weekly, monthly etc..) are displaying the real data
+    - When filtering rather than displaying each time frame (Depending on the actual filter) display the date and the total exit and enter count for that day
+    - Automation of transferring the data from the camera to the main website database, as stated above the real data table is called traffic_Cam_Date, as it is right now only one day at a time can be entered, it would be simple to use the code similar to the weekly filter but instead of entering one date, enter two dates and perform the query between them and including them, and loop through the day since it seems as though the table accepts the data by the hour and not as individual days.(This is a suggestion, there are probably other ways to do this)
+
+Lastly from the backend:
+    - There are and will be gaps in the data, testing might be difficult because of this.If you are unsure of a date that has data I have found that as of right now 2022-12-5 (Y-M_D format) has enough data to perform some tests, there are no clean weeks of straight data as far as my knowledge goes. 

@@ -1,0 +1,7 @@
+
+username:  p_s22_04
+
+password:  8y1udp
+
+database name:  p_s22_04_db
+

@@ -1,0 +1,42 @@
+
+   <table class="table" bordered="1">  
+                    <tr>  
+                         <th>Day of the Week</th>  
+                         <th>People Entered</th>  
+                    </tr>
+  
+    <tr>  
+       <td>Mon</td>  
+       <td>1135</td>  
+    </tr>
+   
+    <tr>  
+       <td>Tue</td>  
+       <td>923</td>  
+    </tr>
+   
+    <tr>  
+       <td>Wed</td>  
+       <td>580</td>  
+    </tr>
+   
+    <tr>  
+       <td>Thu</td>  
+       <td>1307</td>  
+    </tr>
+   
+    <tr>  
+       <td>Fri</td>  
+       <td>692</td>  
+    </tr>
+   
+    <tr>  
+       <td>Sat</td>  
+       <td>455</td>  
+    </tr>
+   
+    <tr>  
+       <td>Sun</td>  
+       <td>494</td>  
+    </tr>
+   </table>

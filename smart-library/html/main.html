@@ -1,0 +1,57 @@
+<head>
+  <link href="./css/floor.css" rel="stylesheet" />
+</head>
+
+<!-- Main floor SVG -->
+<svg
+  id="mainfloormap"
+  version="1.1"
+  xmlns:x="&ns_extend;"
+  xmlns:i="&ns_ai;"
+  xmlns:graph="&ns_graphs;"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  x="0px"
+  y="0px"
+  viewbox="0 0 720 873"
+  style="enable-background: new 0 0 720 873"
+  xml:space="preserve"
+>
+  <switch>
+    <g i:extraneous="self">
+      <g id="color_blocks"></g>
+      <g id="lines">
+        <polyline
+          class="st2"
+          points="10.1,414.3 11.2,63 709.4,63.8 712,863.7 10,863 10.1,528 "
+        />
+      </g>
+      <g id="shelvesMain">
+        <!-- mainFloorDisplayer.php takes care of displaying these shelves -->
+      </g>
+      <g id="text">
+        <rect x="7.6" y="15.4" class="st4" width="701.9" height="48.3" />
+ 
+        <rect x="440.1" y="447.7" class="st4" width="182" height="56.5" />
+        <text transform="matrix(1 0 0 1 472.3978 464.9856)">
+          <tspan x="0" y="0" class="st7 st8">Computers</tspan>
+          <tspan x="6" y="24" class="st7 st8">& Printers</tspan>
+        </text>
+        <rect x="136.1" y="495.6" class="st4" width="218.6" height="23.9" />
+        <text transform="matrix(1 0 0 1 190.0314 512.8294)" class="st7 st8">
+          Help Desk
+        </text>
+        <rect x="249" y="345" class="st4" width="111.3" height="32.9" />
+        <text transform="matrix(1 0 0 1 274.0449 362.2889)" class="st7 st8">
+          Stairs
+        </text>
+      </g>
+    </g>
+  </switch>
+</svg>
+
+<script>
+  $(document).ready(function () {
+    loadDoc("shelvesMain", "./f20-Dynamic-Mapping/mainFloorDisplayer.php");
+  });
+</script>

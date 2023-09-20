@@ -1,0 +1,67 @@
+
+   <table class="table" bordered="1">  
+                    <tr>  
+                         <th>Month</th>  
+                         <th>People Entered</th>  
+                    </tr>
+  
+    <tr>  
+       <td>Jan</td>  
+       <td></td>  
+    </tr>
+   
+    <tr>  
+       <td>Feb</td>  
+       <td></td>  
+    </tr>
+   
+    <tr>  
+       <td>Mar</td>  
+       <td></td>  
+    </tr>
+   
+    <tr>  
+       <td>Apr</td>  
+       <td></td>  
+    </tr>
+   
+    <tr>  
+       <td>May</td>  
+       <td></td>  
+    </tr>
+   
+    <tr>  
+       <td>Jun</td>  
+       <td></td>  
+    </tr>
+   
+    <tr>  
+       <td>Jul</td>  
+       <td></td>  
+    </tr>
+   
+    <tr>  
+       <td>Aug</td>  
+       <td></td>  
+    </tr>
+   
+    <tr>  
+       <td>Sep</td>  
+       <td></td>  
+    </tr>
+   
+    <tr>  
+       <td>Oct</td>  
+       <td></td>  
+    </tr>
+   
+    <tr>  
+       <td>Nov</td>  
+       <td></td>  
+    </tr>
+   
+    <tr>  
+       <td>Dec</td>  
+       <td></td>  
+    </tr>
+   </table>
